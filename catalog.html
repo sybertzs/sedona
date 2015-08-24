@@ -22,36 +22,37 @@
   </header>
   <main class="catalog-container">
     <div class="appartment-properties">
-      <div class="infrastructure">
-        <label>
-          <input type="checkbox" checked>бассейн
-        </label>
-        <label>
-          <input type="checkbox">парковка
-        </label>
-        <label>
-          <input type="checkbox">WI-FI
-        </label>
-      </div>
-      <div class="apartment-type">
-        <label>
-          <input type="checkbox" checked>гостиница
-        </label>
-        <label>
-          <input type="checkbox" checked>мотель
-        </label>
-        <label>
-          <input type="checkbox" checked>апартаменты
-        </label>
-      </div>
-      <div class="cost">
-        <label>
-          стоимость в сутки (р):<br>
-          <input type="">
-          <!--элемнет с полоской и выбором цены - это один элемент? Как его описать-->
-        </label>
-        <a href="#" class="btn btn-choose">показать</a>
-      </div>
+      <form>
+        <div class="infrastructure">
+          <label>
+            <input type="checkbox" checked>бассейн
+          </label>
+          <label>
+            <input type="checkbox">парковка
+          </label>
+          <label>
+            <input type="checkbox">WI-FI
+          </label>
+        </div>
+        <div class="apartment-type">
+          <label>
+            <input type="checkbox" checked>гостиница
+          </label>
+          <label>
+            <input type="checkbox" checked>мотель
+          </label>
+          <label>
+            <input type="checkbox" checked>апартаменты
+          </label>
+        </div>
+        <div class="cost">
+          <label>
+            стоимость в сутки (р):<br>
+            <input type="range">
+          </label>
+          <button>показать</button>
+        </div>
+      </form>
     </div>
     <div class="sorting-properties">
       <div class="find">
