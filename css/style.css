@@ -7,19 +7,17 @@ body {
 }
 
 h1 {
-    font-family: PT Sans;
     font-style: bold;
     font-size: 21px;
-    color: f000000;
+    color: #000000;
     text-transform: uppercase;
     line-height: auto;
 }
 
 h2 {
-    font-family: PT Sans;
     font-style: bold;
     font-size: 21px;
-    color: f000000;
+    color: #000000;
     text-transform: uppercase;
     line-height: auto;
 }
