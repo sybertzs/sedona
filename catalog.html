@@ -24,6 +24,7 @@
     <div class="appartment-properties">
       <form>
         <div class="infrastructure">
+          <h2>инфраструктура:</h2>
           <label>
             <input type="checkbox" checked>бассейн
           </label>
@@ -35,6 +36,7 @@
           </label>
         </div>
         <div class="apartment-type">
+          <h2>тип жилья:</h2>
           <label>
             <input type="checkbox" checked>гостиница
           </label>
@@ -46,27 +48,21 @@
           </label>
         </div>
         <div class="cost">
-          <label>
-            стоимость в сутки (р):<br>
-            <input type="range">
-          </label>
+          <h2>стоимость в сутки (р):</h2>
+          <input type="range">
           <button>показать</button>
         </div>
       </form>
     </div>
     <div class="sorting-properties">
-      <div class="find">
-        найдено: 3
-      </div>
-      <div class="sorting">
-        сортировка:
+      <h1>найдено: 3</h1>
+      <h2>сортировка:</h2>
         <ul>
           <li><a href="">по цене</a></li>
           <li><a href="">по типу</a></li>
           <li><a href="">по рейтингу</a></li>
         </ul>
       </div>
-      <!--ниже див - это стрелки пролистывания-->
       <div class="sorting-scroll">
         <ul>
           <li><a href=""><i class="btn-top"></i></a></li>
@@ -75,50 +71,78 @@
       </div>
     </div>
     <div class="result-container">
-      <div class="finding-result">
-        <a href=""><img src="hotel.png" alt="..."></a>
-        <div class="result-header">amara resort & spa</div>
-        <div class="result-class">гостиница</div>
-        <div class="result-price">от 3500 р.</div>
-        <a href="#" class="btn btn-more">подробнее</a>
-        <a href="#" class="btn btn-confirm">забронировать</a>
-        <div class="stars">
-          <ul>
-            <li><a href="#"><i class="star"></i></a></li>
-            <li><a href="#"><i class="star"></i></a></li>
-            <li><a href="#"><i class="star"></i></a></li>
-            <li><a href="#"><i class="star"></i></a></li>
-          </ul>
+      <article class="finding-result">
+        <div class="hotel-picture"><img src="hotel-amara.jpg" alt="hotel-amara"></div>
+        <div class="hotel">
+          <h2>amara resort & spa</h2>
+          <div class="hotel-type">
+            <span>гостиница</span>
+            <a href="#" class="btn btn-more">подробнее</a>
+          </div>
+          <div class="hotel-price">
+            <span>от 3500 р.</span>
+            <a href="#" class="btn btn-confirm">забронировать</a>
+          </div>
         </div>
-        <div class="rating">рейтинг: 8,5</div>
-      </div>
-      <div class="finding-result">
-        <a href=""><img src="hotel.png" alt="..."></a>
-        <div class="result-header">desert quail inn</div>
-        <div class="result-class">мотель</div>
-        <div class="result-price">от 2000 р.</div>
-        <a href="#" class="btn btn-more">подробнее</a>
-        <a href="#" class="btn btn-confirm">забронировать</a>
-        <div class="stars">
-          <li><a href="#"><i class="star"></i></a></li>
-          <li><a href="#"><i class="star"></i></a></li>
+        <div class="rating">
+          <div class="rating-stars">
+            <ul>
+             <li><a href="#"><i class="star"></i></a></li>
+             <li><a href="#"><i class="star"></i></a></li>
+             <li><a href="#"><i class="star"></i></a></li>
+             <li><a href="#"><i class="star"></i></a></li>
+            </ul>
+          </div>
+          <div class="rating-number">рейтинг: 8,5</div>
         </div>
-        <div class="rating">рейтинг: 8,5</div>
-      </div>
-      <div class="finding-result">
-        <a href="#"><img src="hotel.png" alt="..."></a>
-        <div class="result-header">villas at poco diablo</div>
-        <div class="result-class">фпартаменты</div>
-        <div class="result-price">от 4000 р.</div>
-        <a href="#" class="btn btn-more">подробнее</a>
-        <a href="#" class="btn btn-confirm">забронировать</a>
-        <div class="stars">
-          <li><a href="#"><i class="star"></i></a></li>
-          <li><a href="#"><i class="star"></i></a></li>
-          <li><a href="#"><i class="star"></i></a></li>
+      </article>
+      <article class="finding-result">
+        <div class="hotel-picture"><img src="hotel-desert.jpg" alt="hotel-desert"></div>
+        <div class="hotel">
+          <h2>desert quail inn</h2>
+          <div class="hotel-type">
+            <span>мотель</span>
+            <a href="#" class="btn btn-more">подробнее</a>
+          </div>
+          <div class="hotel-price">
+            <span>от 2000 р.</span>
+            <a href="#" class="btn btn-confirm">забронировать</a>
+          </div>
         </div>
-        <div class="rating">рейтинг: 8,5</div>
-      </div>
+        <div class="rating">
+          <div class="rating-stars">
+            <ul>
+             <li><a href="#"><i class="star"></i></a></li>
+             <li><a href="#"><i class="star"></i></a></li>
+            </ul>
+          </div>
+          <div class="rating-number">рейтинг: 8,9</div>
+        </div>
+      </article>
+      <article class="finding-result">
+        <div class="hotel-picture"><img src="hotel-villas.jpg" alt="hotel-villas"></div>
+        <div class="hotel">
+          <h2>villas at poco diablo</h2>
+          <div class="hotel-type">
+            <span>апартаменты</span>
+            <a href="#" class="btn btn-more">подробнее</a>
+          </div>
+          <div class="hotel-price">
+            <span>от 4000 р.</span>
+            <a href="#" class="btn btn-confirm">забронировать</a>
+          </div>
+        </div>
+        <div class="rating">
+          <div class="rating-stars">
+            <ul>
+             <li><a href="#"><i class="star"></i></a></li>
+             <li><a href="#"><i class="star"></i></a></li>
+             <li><a href="#"><i class="star"></i></a></li>
+            </ul>
+          </div>
+          <div class="rating-number">рейтинг: 9,2</div>
+        </div>
+      </article>
     </div>
   </main>
   <footer class="hotels-footer">
